@@ -35,6 +35,31 @@ body {
   position: absolute;
   top: 70vh;
   z-index: 2;
+  background-image: url(https://image.ibb.co/fmHm66/wave.png);
+  background-position: 0px 350px;
+  background-repeat: repeat-x;
+  -webkit-animation: filling 15s ease-in-out infinite;
+          animation: filling 15s ease-in-out infinite;
+  animation-direction: alternate-reverse;
+  opacity: 0.8;
+}
+
+@-webkit-keyframes filling {
+  50% {
+    background-position: 1000px 0px;
+  }
+  100% {
+    background-position: 2000px 50px;
+  }
+}
+
+@keyframes filling {
+  50% {
+    background-position: 1000px 0px;
+  }
+  100% {
+    background-position: 2000px 50px;
+  }
 }
 
 .bird {
@@ -363,6 +388,24 @@ body {
   100% {
     -webkit-transform: translate(5vw, 5vh);
             transform: translate(5vw, 5vh);
+  }
+}
+
+@-webkit-keyframes water {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes water {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
