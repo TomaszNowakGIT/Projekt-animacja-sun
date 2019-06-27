@@ -24,8 +24,8 @@ body {
   position: absolute;
   top: 30px;
   left: 50vw;
-  -webkit-animation: sun-sunset 15s infinite;
-          animation: sun-sunset 15s infinite;
+  -webkit-animation: sun-sunset 10s infinite;
+          animation: sun-sunset 10s infinite;
 }
 
 #water {
