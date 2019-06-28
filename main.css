@@ -11,8 +11,8 @@ body {
   position: relative;
   z-index: -1;
   background-color: #FBDD65;
-  -webkit-animation: sky-sunset 10s infinite;
-          animation: sky-sunset 10s infinite;
+  -webkit-animation: sky-sunset 20s infinite;
+          animation: sky-sunset 20s infinite;
 }
 
 #sun {
@@ -24,8 +24,8 @@ body {
   position: absolute;
   top: 30px;
   left: 50vw;
-  -webkit-animation: sun-sunset 10s infinite;
-          animation: sun-sunset 10s infinite;
+  -webkit-animation: sun-sunset 20s infinite;
+          animation: sun-sunset 20s infinite;
 }
 
 #water {
