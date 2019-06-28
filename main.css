@@ -26,6 +26,8 @@ body {
   left: 50vw;
   -webkit-animation: sun-sunset 20s infinite;
           animation: sun-sunset 20s infinite;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
 }
 
 #water {
