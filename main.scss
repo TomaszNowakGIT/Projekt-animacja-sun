@@ -33,7 +33,7 @@ body{
     top:70vh;
     z-index:2;
     background-image: url(https://image.ibb.co/fmHm66/wave.png);
-    background-position: 0px 350px;
+    background-position: 0px 100px;
     background-repeat: repeat-x;
     animation: filling 15s ease-in-out infinite;
     animation-direction: alternate-reverse;
@@ -42,7 +42,7 @@ body{
   }
   @keyframes filling {
     50% {background-position: 1000px 0px;}
-    100% {background-position: 2000px 50px;}
+    100% {background-position: 1500px 50px;}
   }
 
 
