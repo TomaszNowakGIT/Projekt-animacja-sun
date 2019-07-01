@@ -1045,9 +1045,9 @@ body {
   left: -10px;
   width: 20px;
   height: 20px;
-  background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 39%, rgba(255, 255, 255, 0.5) 40%, white 41%, white 100%);
+  background: radial-gradient(center, ellipse farthest-corner, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 39%, rgba(255, 255, 255, 0.5) 40%, white 41%, white 100%);
   background: gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(39%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0.5)), color-stop(41%, white), color-stop(100%, white));
-  background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 39%, rgba(255, 255, 255, 0.5) 40%, white 41%, white 100%);
+  background: radial-gradient(center, ellipse farthest-corner, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 39%, rgba(255, 255, 255, 0.5) 40%, white 41%, white 100%);
   background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 39%, rgba(255, 255, 255, 0.5) 40%, white 41%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
 }
@@ -1135,30 +1135,6 @@ body {
 }
 
 @-webkit-keyframes floating {
-  0% {
-    bottom: 48px;
-    -webkit-transform: rotate(1deg);
-            transform: rotate(1deg);
-    -webkit-transform-origin: -20% -40%;
-            transform-origin: -20% -40%;
-  }
-  50% {
-    bottom: 52px;
-    -webkit-transform: rotate(-1deg);
-            transform: rotate(-1deg);
-    -webkit-transform-origin: -20% -40%;
-            transform-origin: -20% -40%;
-  }
-  100% {
-    bottom: 48px;
-    -webkit-transform: rotate(1deg);
-            transform: rotate(1deg);
-    -webkit-transform-origin: -20% -40%;
-            transform-origin: -20% -40%;
-  }
-}
-
-@keyframes floating {
   0% {
     bottom: 48px;
     -webkit-transform: rotate(1deg);
